@@ -945,14 +945,14 @@ var app = (function () {
     			attr_dev(button, "title", "Open Menu");
     			attr_dev(button, "class", "p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50");
     			add_location(button, file$3, 20, 6, 1088);
-    			attr_dev(div0, "class", "lg:hidden svelte-yjs2bx");
+    			attr_dev(div0, "class", "lg:hidden svelte-15aw435");
     			toggle_class(div0, "active", /*active*/ ctx[0]);
     			add_location(div0, file$3, 19, 4, 1012);
     			attr_dev(div1, "class", "relative flex items-center justify-between");
     			add_location(div1, file$3, 7, 2, 176);
     			attr_dev(div2, "class", "px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-full md:px-24 lg:px-8");
     			add_location(div2, file$3, 6, 0, 85);
-    			attr_dev(div3, "class", "side-bar items-stretch md:items-center svelte-yjs2bx");
+    			attr_dev(div3, "class", "side-bar items-stretch md:items-center svelte-15aw435");
     			toggle_class(div3, "active", /*active*/ ctx[0]);
     			add_location(div3, file$3, 31, 2, 1747);
     		},
@@ -1787,7 +1787,7 @@ var app = (function () {
     			t1 = space();
     			create_component(footer.$$.fragment);
     			attr_dev(div, "class", "container mx-auto bg-gradient-to-r from-purple-100 via-purple-300 to-purple-100");
-    			add_location(div, file, 16, 2, 229);
+    			add_location(div, file, 187424, 2, 4413414);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
