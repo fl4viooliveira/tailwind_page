@@ -6,12 +6,22 @@
 
 </script>
 
-<style>
+<style global lang="postcss">
+
+  /* only apply purgecss on utilities, per Tailwind docs */
+  /* purgecss start ignore */
+  @tailwind base;
+  @tailwind components;
+  /* purgecss end ignore */
+
+  @tailwind utilities;
+
   :global(body){
     background: #d3d3d373;
     margin:0;
     padding:0;
   }
+
 </style>
 
   <div class="container mx-auto bg-gradient-to-r from-purple-100 via-purple-300 to-purple-100">

@@ -1787,7 +1787,7 @@ var app = (function () {
     			t1 = space();
     			create_component(footer.$$.fragment);
     			attr_dev(div, "class", "container mx-auto bg-gradient-to-r from-purple-100 via-purple-300 to-purple-100");
-    			add_location(div, file, 16, 2, 229);
+    			add_location(div, file, 26, 2, 438);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
