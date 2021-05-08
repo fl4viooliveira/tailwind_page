@@ -1,5 +1,11 @@
 const isProduction = !process.env.ROLLUP_WATCH; // or some other env var like NODE_ENV
 module.exports = {
+    theme: {
+    // Some useful comment
+    fontFamily: {
+      'Poppins': ['Poppins', 'sans-serif'],
+    },
+  },
   // only needed in Tailwind 1.0 for tailwind 2.0 compat
   // future: { 
   //     purgeLayersByDefault: true, 
