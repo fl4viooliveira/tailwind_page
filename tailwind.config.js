@@ -5,6 +5,11 @@ module.exports = {
     fontFamily: {
       'Poppins': ['Poppins', 'sans-serif'],
     },
+    extend: {
+      boxShadow: {
+        purple: '0 4px 14px 0 rgba(109, 40, 217, 0.30)',
+      },
+    },
   },
   // only needed in Tailwind 1.0 for tailwind 2.0 compat
   // future: { 
