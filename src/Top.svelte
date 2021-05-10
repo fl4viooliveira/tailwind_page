@@ -15,19 +15,17 @@
       </svg>
       <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase mr-15">Company</span>
     </a>
-    <img class="h-12 w-12 rounded-full object-center mx-5" src="https://avatars.githubusercontent.com/u/101659?v=4" alt="Mat">
+    <img class="object-center w-12 h-12 mx-5 rounded-full" src="https://avatars.githubusercontent.com/u/101659?v=4" alt="Mat">
     <!-- Mobile menu -->
     <div class:active on:click={() => active= !active} class="lg:hidden">
-      <button id="open" class="p-2 -mr-1 transition duration-200 rounded 
-        focus:outline-none focus:shadow-outline hover:bg-purple-50 focus:bg-deep-purple-50">
+      <button id="open" class="p-2 -mr-1 rounded transition duration-200 focus:outline-none focus:shadow-outline hover:bg-purple-50 focus:bg-deep-purple-50">
         <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
           <path fill="currentColor" d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"></path>
           <path fill="currentColor" d="M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z"></path>
           <path fill="currentColor" d="M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z"></path>
         </svg>
       </button>
-      <button id="close" class="p-2 -mr-1 transition duration-200 rounded 
-        hover:bg-purple-50 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+      <button id="close" class="p-2 -mr-1 rounded transition duration-200 hover:bg-purple-50 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
         <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
           <path fill="currentColor"
             d="M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 
@@ -39,7 +37,7 @@
     </div>
   </div>
 </div>
-<div class="side-bar items-stretch md:items-center" class:active>
+<div class="items-stretch side-bar md:items-center" class:active>
   <Sidebar />
 </div>
 
